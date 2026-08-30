@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Navian Digital — Games</title>
-<meta name="description" content="Navian Digital is an independent game studio. We make games you can feel in your hands.">
+<title>Navian Digital</title>
+<meta name="description" content="Navian Digital is an independent game studio. Makers of The Offering.">
 <meta property="og:title" content="Navian Digital">
 <meta property="og:description" content="Independent game studio. Makers of The Offering.">
-<meta property="og:image" content="assets/img/banner.png">
+<meta property="og:image" content="assets/img/offering_capsule.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -18,227 +18,197 @@
 </head>
 <body>
 
-<!-- ─── announcement bar ─────────────────────────────────────────── -->
-<a class="announce" href="https://store.steampowered.com/app/5097360/" target="_blank" rel="noopener">
-  <span class="announce__tag">New</span>
-  <span class="announce__text">THE OFFERING — WISHLIST NOW ON STEAM</span>
-  <span class="announce__arrow" aria-hidden="true">→</span>
-</a>
+<!-- ════ top bar: socials, centred ════════════════════════════════ -->
+<div class="topbar">
+  <nav class="socials socials--top" aria-label="Social links">
+    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.5a2.9 2.9 0 0 0-2-2C19.2 5 12 5 12 5s-7.2 0-9 .5a2.9 2.9 0 0 0-2 2A30 30 0 0 0 .5 12 30 30 0 0 0 1 16.5a2.9 2.9 0 0 0 2 2c1.8.5 9 .5 9 .5s7.2 0 9-.5a2.9 2.9 0 0 0 2-2 30 30 0 0 0 .5-4.5A30 30 0 0 0 23 7.5ZM9.8 15.3V8.7l6 3.3-6 3.3Z"/></svg></a>
+    <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 5.8a4.3 4.3 0 0 1-1-2.8h-3.1v12.3a2.6 2.6 0 1 1-1.8-2.5V9.6a5.7 5.7 0 1 0 4.9 5.6V9.4a7.3 7.3 0 0 0 4.3 1.4V7.7a4.3 4.3 0 0 1-3.3-1.9Z"/></svg></a>
+    <a href="https://bsky.app/" target="_blank" rel="noopener" aria-label="Bluesky"><svg viewBox="0 0 24 24"><path d="M12 10.8C10.9 8.7 8 4.7 5.3 2.8 2.7 1 1.7 1.3 1 1.6.2 2 0 3.2 0 3.9c0 .7.4 6 .7 6.9.8 2.9 4 3.9 6.8 3.6h.4-.4c-4.1.6-7.8 2.1-3 7.5 5.3 5.5 7.3-1.2 8.3-4.6 1 3.4 2.2 9.9 8.2 4.6 4.5-4.6 1.2-6.9-2.9-7.5h-.4.4c2.9.3 6-.7 6.8-3.6.3-.9.7-6.2.7-6.9 0-.7-.2-1.9-1-2.3-.7-.3-1.7-.6-4.3 1.2C15.9 4.7 13.1 8.7 12 10.8Z"/></svg></a>
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4a3.8 3.8 0 0 1-1.4-.9 3.8 3.8 0 0 1-.9-1.4c-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.3-.1 1.7-.1 4.8-.1Zm0 5.8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0 6.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2Zm5.1-6.8a.9.9 0 1 1-1.9 0 .9.9 0 0 1 1.9 0Z"/></svg></a>
+    <a href="https://discord.gg/" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24"><path d="M19.3 5.3A16 16 0 0 0 15.4 4l-.2.4a15 15 0 0 1 3.5 1.7 13 13 0 0 0-11.4 0A15 15 0 0 1 10.8 4.4L10.6 4a16 16 0 0 0-3.9 1.3C4.2 9 3.5 12.6 3.9 16.1a16 16 0 0 0 4.8 2.4l.9-1.4a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.2 0l.4.3a10 10 0 0 1-1.6.8l.9 1.4a16 16 0 0 0 4.8-2.4c.5-4.1-.6-7.7-2.8-10.8ZM9.7 14c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Zm4.6 0c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Z"/></svg></a>
+  </nav>
+</div>
 
-<!-- ─── header ───────────────────────────────────────────────────── -->
-<header class="site-header" id="siteHeader">
-  <div class="wrap site-header__inner">
-    <a class="logo" href="#top" aria-label="Navian Digital home">
-      <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
-        <path d="M6 34V6l28 28V6" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
+<!-- ════ header: nav left · logo centre · nav right ═══════════════ -->
+<header class="masthead" id="masthead">
+  <div class="masthead__inner">
+
+    <nav class="mast-nav mast-nav--primary" aria-label="Primary">
+      <a href="#top" class="is-active">Home</a>
+      <a href="#studio">About</a>
+      <div class="mast-folder">
+        <a href="#games" class="mast-folder__title">Games</a>
+        <div class="mast-folder__menu">
+          <a href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">The Offering</a>
+          <a href="#games">Unannounced</a>
+        </div>
+      </div>
+      <a href="press.html">Press Kits</a>
+    </nav>
+
+    <a class="brand" href="#top" aria-label="Navian Digital home">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M6 34V6l28 28V6" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="square"/>
       </svg>
-      <span class="logo__word">NAVIAN<span class="logo__word--thin">DIGITAL</span></span>
+      <span class="brand__word">NAVIAN <em>DIGITAL</em></span>
     </a>
 
-    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="siteNav">
+    <nav class="mast-nav mast-nav--secondary" aria-label="Secondary">
+      <a href="#contact">Contact</a>
+      <a class="mast-cta" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">Wishlist</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav">
       <span></span><span></span><span></span>
     </button>
-
-    <nav class="site-nav" id="siteNav">
-      <a href="#games">Games</a>
-      <a href="#studio">Studio</a>
-      <a href="press.html">Press</a>
-      <a href="#contact">Contact</a>
-      <div class="site-nav__social">
-        <a href="https://discord.gg/" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24"><path d="M19.3 5.3A16 16 0 0 0 15.4 4l-.2.4a15 15 0 0 1 3.5 1.7 13 13 0 0 0-11.4 0A15 15 0 0 1 10.8 4.4L10.6 4a16 16 0 0 0-3.9 1.3C4.2 9 3.5 12.6 3.9 16.1a16 16 0 0 0 4.8 2.4l.9-1.4a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.2 0l.4.3a10 10 0 0 1-1.6.8l.9 1.4a16 16 0 0 0 4.8-2.4c.5-4.1-.6-7.7-2.8-10.8ZM9.7 14c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Zm4.6 0c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Z"/></svg></a>
-        <a href="https://bsky.app/" target="_blank" rel="noopener" aria-label="Bluesky"><svg viewBox="0 0 24 24"><path d="M12 10.8C10.9 8.7 8 4.7 5.3 2.8 2.7 1 1.7 1.3 1 1.6.2 2 0 3.2 0 3.9c0 .7.4 6 .7 6.9.8 2.9 4 3.9 6.8 3.6h.4-.4c-4.1.6-7.8 2.1-3 7.5 5.3 5.5 7.3-1.2 8.3-4.6 1 3.4 2.2 9.9 8.2 4.6 4.5-4.6 1.2-6.9-2.9-7.5h-.4.4c2.9.3 6-.7 6.8-3.6.3-.9.7-6.2.7-6.9 0-.7-.2-1.9-1-2.3-.7-.3-1.7-.6-4.3 1.2C15.9 4.7 13.1 8.7 12 10.8Z"/></svg></a>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.5a2.9 2.9 0 0 0-2-2C19.2 5 12 5 12 5s-7.2 0-9 .5a2.9 2.9 0 0 0-2 2A30 30 0 0 0 .5 12 30 30 0 0 0 1 16.5a2.9 2.9 0 0 0 2 2c1.8.5 9 .5 9 .5s7.2 0 9-.5a2.9 2.9 0 0 0 2-2 30 30 0 0 0 .5-4.5A30 30 0 0 0 23 7.5ZM9.8 15.3V8.7l6 3.3-6 3.3Z"/></svg></a>
-      </div>
-      <a class="btn btn--pill site-nav__cta" href="https://store.steampowered.com/app/5097360/" target="_blank" rel="noopener">Wishlist</a>
-    </nav>
   </div>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="#top">Home</a>
+    <a href="#studio">About</a>
+    <a href="#games">Games</a>
+    <a href="press.html">Press Kits</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn--solid" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">Wishlist on Steam</a>
+  </nav>
 </header>
 
 <main id="top">
 
-<!-- ─── hero ─────────────────────────────────────────────────────── -->
-<section class="hero">
-  <video class="hero__media" autoplay muted loop playsinline poster="assets/img/banner.png">
-    <source src="assets/video/night.mp4" type="video/mp4">
-  </video>
-  <div class="hero__scrim"></div>
-  <div class="wrap hero__inner">
-    <p class="eyebrow">Navian Digital presents</p>
-    <h1 class="hero__title">THE<br>OFFERING</h1>
-    <p class="hero__sub">Possess the pilgrims. Spend what they leave behind. Hold the plaza when the sun goes down.</p>
+<!-- ════ 1 · hero — parallax key art ══════════════════════════════ -->
+<section class="band band--full band--parallax" id="hero">
+  <div class="band__bg" style="background-image:url('assets/img/hero_bg.jpg')"></div>
+  <div class="band__scrim"></div>
+  <div class="band__content">
+    <h1>WISHLIST THE OFFERING</h1>
+    <img class="keyart" src="assets/img/offering_logo.png" alt="The Offering" width="1180" height="400">
+    <p class="lede">An incremental shrine defence. Out on Steam.</p>
     <div class="btn-row">
-      <a class="btn btn--primary" href="https://store.steampowered.com/app/5097360/" target="_blank" rel="noopener">Wishlist on Steam</a>
-      <a class="btn btn--ghost" href="#games">See the games</a>
+      <a class="btn btn--solid" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">Steam</a>
+      <a class="btn" href="#games">Our games</a>
     </div>
   </div>
-  <a class="hero__scroll" href="#featured" aria-label="Scroll down">▼</a>
 </section>
 
-<!-- ─── featured blocks ──────────────────────────────────────────── -->
-<section class="feature" id="featured">
-  <div class="wrap feature__grid">
-    <div class="feature__media">
-      <video autoplay muted loop playsinline poster="assets/img/ui_day.png">
-        <source src="assets/video/plaza.mp4" type="video/mp4">
+<!-- ════ 2 · trailer band ═════════════════════════════════════════ -->
+<section class="band band--flat" id="trailer">
+  <div class="band__content">
+    <h2>DAY BUILDS. NIGHT FIGHTS.</h2>
+    <div class="framed">
+      <video autoplay muted loop playsinline poster="assets/img/shot_2_night_wave.jpg">
+        <source src="assets/video/night.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="feature__body">
-      <p class="eyebrow">In development</p>
-      <h2>TAKE A BODY,<br>TAKE AN OFFERING</h2>
-      <p>Slip into any visitor walking the road, steer them to the altar, and spend what they leave on more of everything. Chain deliveries without a break to build a streak and watch the pyre climb.</p>
+    <div class="btn-row">
+      <a class="btn btn--solid" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">Wishlist on Steam</a>
+      <a class="btn" href="press.html">Press kit</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ 3 · parallax break ═══════════════════════════════════════ -->
+<section class="band band--full band--parallax" id="break">
+  <div class="band__bg" style="background-image:url('assets/img/page_bg.jpg')"></div>
+  <div class="band__scrim band__scrim--heavy"></div>
+  <div class="band__content">
+    <h1>POSSESS THE PILGRIMS</h1>
+    <p class="lede">Walk them to the altar. Spend what they leave behind. Then hold the plaza when the sun goes down and something walks in from the ruins.</p>
+    <div class="btn-row">
+      <a class="btn btn--solid" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">See it on Steam</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ 4 · screens ══════════════════════════════════════════════ -->
+<section class="band band--flat" id="screens">
+  <div class="band__content">
+    <h2>THE SHRINE</h2>
+    <div class="framed"><img src="assets/img/shot_1_early_day.jpg" alt="The shrine plaza by day" loading="lazy"></div>
+    <div class="framed"><img src="assets/img/shot_3_night_boss.jpg" alt="A boss wave at night" loading="lazy"></div>
+    <p class="lede">Five cards, four rites, thirty-odd night boons, and a tree that never resets.</p>
+  </div>
+</section>
+
+<!-- ════ 5 · games ════════════════════════════════════════════════ -->
+<section class="band band--flat band--tint" id="games">
+  <div class="band__content">
+    <h1 class="band__heading">GAMES</h1>
+
+    <article class="entry">
+      <a class="entry__art" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">
+        <img src="assets/img/offering_capsule.jpg" alt="The Offering" width="920" height="430">
+      </a>
+      <h3>THE OFFERING</h3>
+      <p>Possess the pilgrims who wander up to your shrine and spend what they leave behind on more of everything. Grow the crowd by day. Hold the plaza by night.</p>
       <div class="btn-row">
-        <a class="btn btn--primary" href="https://store.steampowered.com/app/5097360/" target="_blank" rel="noopener">Steam</a>
-        <a class="btn btn--ghost" href="press.html">Press kit</a>
+        <a class="btn btn--solid" href="https://store.steampowered.com/app/5069510/The_Offering/" target="_blank" rel="noopener">Steam</a>
+        <a class="btn" href="press.html">Press kit</a>
       </div>
-    </div>
-  </div>
-</section>
+    </article>
 
-<section class="feature feature--flip">
-  <div class="wrap feature__grid">
-    <div class="feature__media">
-      <img src="assets/img/ui_night.png" alt="Night defence in The Offering">
-    </div>
-    <div class="feature__body">
-      <p class="eyebrow">The night loop</p>
-      <h2>HOLD<br>THE NIGHT</h2>
-      <p>At dusk the colour drains out of the world and things walk in from the rubble. Pick one rite for the whole run — bolt, mortar, lance, scatter — and draft a card between every wave.</p>
+    <article class="entry">
+      <a class="entry__art" href="#contact">
+        <img src="assets/img/ascended_vista.jpg" alt="Dominion of Light" loading="lazy">
+      </a>
+      <h3>DOMINION OF LIGHT</h3>
+      <p>The ascended phase of The Offering. Fly the comet, paint the city in consecration rings, and take the world one block at a time.</p>
       <div class="btn-row">
-        <a class="btn btn--ghost" href="#games">All games</a>
+        <a class="btn" href="#contact">Follow along</a>
       </div>
-    </div>
+    </article>
+
+    <article class="entry entry--tba">
+      <div class="entry__art entry__art--tba" aria-hidden="true"><span>?</span></div>
+      <h3>UNANNOUNCED</h3>
+      <p>Something new out of the studio. Not ready to talk about it yet.</p>
+      <div class="btn-row"><span class="btn btn--dead">TBA</span></div>
+    </article>
+
+    <article class="entry entry--tba">
+      <div class="entry__art entry__art--tba" aria-hidden="true"><span>?</span></div>
+      <h3>UNANNOUNCED</h3>
+      <p>Prototype in the oven. Check back.</p>
+      <div class="btn-row"><span class="btn btn--dead">TBA</span></div>
+    </article>
+
   </div>
 </section>
 
-<!-- ─── games grid ───────────────────────────────────────────────── -->
-<section class="games" id="games">
-  <div class="wrap">
-    <h2 class="section-title">GAMES</h2>
-
-    <div class="game-grid">
-
-      <article class="card">
-        <a class="card__art" href="https://store.steampowered.com/app/5097360/" target="_blank" rel="noopener">
-          <img src="assets/img/banner.png" alt="The Offering">
-          <span class="card__badge">Wishlist</span>
-        </a>
-        <div class="card__body">
-          <h3>The Offering</h3>
-          <p>An incremental shrine defence. Grow the crowd by day, hold the plaza by night, and never let the flame go out.</p>
-          <div class="card__links">
-            <a href="https://store.steampowered.com/app/5097360/" target="_blank" rel="noopener">Steam</a>
-            <a href="press.html">Press kit</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="card__art" href="#contact">
-          <img src="assets/img/ascended_vista.png" alt="The Offering — Dominion of Light">
-          <span class="card__badge">Coming</span>
-        </a>
-        <div class="card__body">
-          <h3>Dominion of Light</h3>
-          <p>The ascended phase of The Offering. Fly the comet, paint the city in consecration rings, and take the world.</p>
-          <div class="card__links">
-            <a href="#contact">Follow along</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card card--tba">
-        <div class="card__art card__art--tba" aria-hidden="true">
-          <span class="card__tba-mark">?</span>
-        </div>
-        <div class="card__body">
-          <h3>Unannounced</h3>
-          <p>Something new out of the studio. Not ready to talk about it yet.</p>
-          <div class="card__links"><span>TBA</span></div>
-        </div>
-      </article>
-
-      <article class="card card--tba">
-        <div class="card__art card__art--tba" aria-hidden="true">
-          <span class="card__tba-mark">?</span>
-        </div>
-        <div class="card__body">
-          <h3>Unannounced</h3>
-          <p>Prototype in the oven. Check back.</p>
-          <div class="card__links"><span>TBA</span></div>
-        </div>
-      </article>
-
-    </div>
+<!-- ════ 6 · studio ═══════════════════════════════════════════════ -->
+<section class="band band--flat" id="studio">
+  <div class="band__content">
+    <h1 class="band__heading">ABOUT</h1>
+    <p class="lede">Navian Digital is an independent game studio. We build small, dense games with hand-made art and systems you can read at a glance — no stock assets, no microtransactions, no live-service treadmill.</p>
+    <p class="lede lede--dim">Everything ships on desktop. Everything is playable offline.</p>
   </div>
 </section>
 
-<!-- ─── studio ───────────────────────────────────────────────────── -->
-<section class="studio" id="studio">
-  <div class="wrap studio__inner">
-    <h2 class="section-title">STUDIO</h2>
-    <div class="studio__cols">
-      <div class="studio__lead">
-        <p>Navian Digital is an independent game studio. We build small, dense games with hand-made art and systems you can read at a glance — no stock assets, no microtransactions, no live-service treadmill.</p>
-        <p>Everything ships on desktop. Everything is playable offline.</p>
-      </div>
-      <dl class="stats">
-        <div><dt>Founded</dt><dd>2025</dd></div>
-        <div><dt>In development</dt><dd>1</dd></div>
-        <div><dt>Platforms</dt><dd>Steam / PC</dd></div>
-        <div><dt>Team</dt><dd>Independent</dd></div>
-      </dl>
-    </div>
-  </div>
-</section>
-
-<!-- ─── contact ──────────────────────────────────────────────────── -->
-<section class="contact" id="contact">
-  <div class="wrap contact__inner">
-    <h2 class="section-title">GET IN TOUCH</h2>
-    <div class="contact__cards">
-      <a class="contact-card" href="mailto:hello@naviandigital.com">
-        <h3>General</h3>
-        <p>hello@naviandigital.com</p>
-      </a>
-      <a class="contact-card" href="mailto:press@naviandigital.com">
-        <h3>Press &amp; creators</h3>
-        <p>press@naviandigital.com</p>
-      </a>
-      <a class="contact-card" href="mailto:support@naviandigital.com">
-        <h3>Support</h3>
-        <p>support@naviandigital.com</p>
-      </a>
-    </div>
+<!-- ════ 7 · contact ══════════════════════════════════════════════ -->
+<section class="band band--flat band--tint" id="contact">
+  <div class="band__content">
+    <h1 class="band__heading">CONTACT</h1>
+    <p class="lede">General — <a href="mailto:hello@naviandigital.com">hello@naviandigital.com</a></p>
+    <p class="lede">Press &amp; creators — <a href="mailto:press@naviandigital.com">press@naviandigital.com</a></p>
+    <p class="lede">Support — <a href="mailto:support@naviandigital.com">support@naviandigital.com</a></p>
   </div>
 </section>
 
 </main>
 
-<!-- ─── footer ───────────────────────────────────────────────────── -->
+<!-- ════ footer ═══════════════════════════════════════════════════ -->
 <footer class="site-footer">
-  <div class="wrap site-footer__inner">
-    <div class="site-footer__brand">
-      <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
-        <path d="M6 34V6l28 28V6" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="square"/>
-      </svg>
-      <p>Navian Digital<br>hello@naviandigital.com</p>
-    </div>
-
+  <div class="site-footer__inner">
+    <p class="site-footer__addr">Navian Digital<br>hello@naviandigital.com</p>
     <nav class="site-footer__links">
-      <a href="#games">Games</a>
-      <a href="#studio">Studio</a>
-      <a href="press.html">Press</a>
+      <a href="press.html">Press kit</a>
       <a href="privacy.html">Privacy policy</a>
     </nav>
-
-    <div class="site-footer__social">
-      <a href="https://discord.gg/" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24"><path d="M19.3 5.3A16 16 0 0 0 15.4 4l-.2.4a15 15 0 0 1 3.5 1.7 13 13 0 0 0-11.4 0A15 15 0 0 1 10.8 4.4L10.6 4a16 16 0 0 0-3.9 1.3C4.2 9 3.5 12.6 3.9 16.1a16 16 0 0 0 4.8 2.4l.9-1.4a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.2 0l.4.3a10 10 0 0 1-1.6.8l.9 1.4a16 16 0 0 0 4.8-2.4c.5-4.1-.6-7.7-2.8-10.8ZM9.7 14c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Zm4.6 0c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Z"/></svg></a>
-      <a href="https://bsky.app/" target="_blank" rel="noopener" aria-label="Bluesky"><svg viewBox="0 0 24 24"><path d="M12 10.8C10.9 8.7 8 4.7 5.3 2.8 2.7 1 1.7 1.3 1 1.6.2 2 0 3.2 0 3.9c0 .7.4 6 .7 6.9.8 2.9 4 3.9 6.8 3.6h.4-.4c-4.1.6-7.8 2.1-3 7.5 5.3 5.5 7.3-1.2 8.3-4.6 1 3.4 2.2 9.9 8.2 4.6 4.5-4.6 1.2-6.9-2.9-7.5h-.4.4c2.9.3 6-.7 6.8-3.6.3-.9.7-6.2.7-6.9 0-.7-.2-1.9-1-2.3-.7-.3-1.7-.6-4.3 1.2C15.9 4.7 13.1 8.7 12 10.8Z"/></svg></a>
+    <nav class="socials socials--foot" aria-label="Social links">
       <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.5a2.9 2.9 0 0 0-2-2C19.2 5 12 5 12 5s-7.2 0-9 .5a2.9 2.9 0 0 0-2 2A30 30 0 0 0 .5 12 30 30 0 0 0 1 16.5a2.9 2.9 0 0 0 2 2c1.8.5 9 .5 9 .5s7.2 0 9-.5a2.9 2.9 0 0 0 2-2 30 30 0 0 0 .5-4.5A30 30 0 0 0 23 7.5ZM9.8 15.3V8.7l6 3.3-6 3.3Z"/></svg></a>
-    </div>
-  </div>
-  <div class="wrap site-footer__legal">
-    <p>&copy; 2026 Navian Digital. All rights reserved.</p>
+      <a href="https://bsky.app/" target="_blank" rel="noopener" aria-label="Bluesky"><svg viewBox="0 0 24 24"><path d="M12 10.8C10.9 8.7 8 4.7 5.3 2.8 2.7 1 1.7 1.3 1 1.6.2 2 0 3.2 0 3.9c0 .7.4 6 .7 6.9.8 2.9 4 3.9 6.8 3.6h.4-.4c-4.1.6-7.8 2.1-3 7.5 5.3 5.5 7.3-1.2 8.3-4.6 1 3.4 2.2 9.9 8.2 4.6 4.5-4.6 1.2-6.9-2.9-7.5h-.4.4c2.9.3 6-.7 6.8-3.6.3-.9.7-6.2.7-6.9 0-.7-.2-1.9-1-2.3-.7-.3-1.7-.6-4.3 1.2C15.9 4.7 13.1 8.7 12 10.8Z"/></svg></a>
+      <a href="https://discord.gg/" target="_blank" rel="noopener" aria-label="Discord"><svg viewBox="0 0 24 24"><path d="M19.3 5.3A16 16 0 0 0 15.4 4l-.2.4a15 15 0 0 1 3.5 1.7 13 13 0 0 0-11.4 0A15 15 0 0 1 10.8 4.4L10.6 4a16 16 0 0 0-3.9 1.3C4.2 9 3.5 12.6 3.9 16.1a16 16 0 0 0 4.8 2.4l.9-1.4a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.2 0l.4.3a10 10 0 0 1-1.6.8l.9 1.4a16 16 0 0 0 4.8-2.4c.5-4.1-.6-7.7-2.8-10.8ZM9.7 14c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Zm4.6 0c-.9 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.7.9 1.7 1.9-.7 1.9-1.7 1.9Z"/></svg></a>
+    </nav>
+    <p class="site-footer__legal">&copy; 2026 Navian Digital</p>
   </div>
 </footer>
 
