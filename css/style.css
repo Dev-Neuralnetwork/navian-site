@@ -132,8 +132,12 @@ h3{ font-size:clamp(22px, 2.6vw, 32px); }
 }
 .mast-cta:hover{ background:var(--paper); border-color:var(--paper); color:var(--ink) !important; }
 
-/* nav folder (landfall's Games dropdown) */
-.mast-folder{ position:relative; }
+/* nav folder (landfall's Games dropdown)
+   display:flex matters — the sibling nav links are direct children of the nav's
+   flex container and get blockified to the full line-height. The link in here
+   is one level deeper, so without this it stays inline in a taller line box and
+   sits ~4px below the others. */
+.mast-folder{ position:relative; display:flex; align-items:center; }
 .mast-folder__menu{
   position:absolute;
   top:100%; left:50%;
