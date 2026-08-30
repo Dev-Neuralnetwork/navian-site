@@ -1,0 +1,40 @@
+<!--
+  Navian Digital — email signature
+  ================================
+  Built as a table with inline styles because Outlook's rendering engine is Word:
+  it ignores <style> blocks, flexbox, grid and SVG. The mark is therefore a PNG
+  served at 2x (80px file, 40px display) so it stays sharp on retina.
+
+  To install:
+    Outlook / Gmail — open this file in a browser, select all, copy, paste into
+    the signature editor. Both preserve the table when pasted as rich text.
+
+  Replace NAME and ROLE. Nothing else should change.
+
+  The image URL only resolves once the site is live at naviandigital.com. Until
+  then, swap the src for the local file or the signature shows a broken image.
+-->
+<table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;font-family:Rubik,Helvetica,Arial,sans-serif;color:#131a24;">
+  <tr>
+    <td style="padding:0 16px 0 0;vertical-align:top;">
+      <img src="https://naviandigital.com/assets/brand/navian-box-mail-80.png"
+           width="40" height="40" alt="Navian Digital"
+           style="display:block;border:0;outline:none;text-decoration:none;border-radius:7px;">
+    </td>
+    <td style="vertical-align:top;padding:0;">
+      <div style="font-size:14px;font-weight:700;line-height:1.3;color:#131a24;">
+        [YOUR NAME]
+      </div>
+      <div style="font-size:12px;line-height:1.5;color:#5b6472;padding-top:1px;">
+        Founder &middot; Navian Digital
+      </div>
+
+      <div style="width:26px;height:2px;background:#131a24;font-size:0;line-height:0;margin:9px 0;">&nbsp;</div>
+
+      <div style="font-size:12px;line-height:1.7;color:#5b6472;">
+        <a href="https://naviandigital.com" style="color:#131a24;font-weight:600;text-decoration:none;">naviandigital.com</a><br>
+        <a href="mailto:hello@naviandigital.com" style="color:#5b6472;text-decoration:none;">hello@naviandigital.com</a>
+      </div>
+    </td>
+  </tr>
+</table>

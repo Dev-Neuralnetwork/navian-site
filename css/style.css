@@ -145,10 +145,31 @@ h3{ font-size:clamp(22px, 2.6vw, 32px); }
 .mast-folder__menu a{ padding:9px 20px; text-align:left; }
 .mast-folder__menu a:hover{ background:rgba(255,255,255,.07); }
 
-.brand{ display:inline-flex; align-items:center; gap:12px; }
-.brand__mark{ width:26px; height:26px; color:var(--accent); flex:none; }
-.brand__word{ font-size:19px; font-weight:900; letter-spacing:.14em; white-space:nowrap; }
-.brand__word em{ font-style:normal; font-weight:300; opacity:.6; }
+/* The logo is the wordmark. The N-in-a-square exists only for square contexts
+   — favicon, app icon, social avatar — and never appears on the page.
+   Tracked type leaves a trailing gap after the last letter; the negative
+   margin pulls it back so the lockup optically centres. */
+.brand{
+  display:inline-flex;
+  flex-direction:column;
+  align-items:center;
+  line-height:1;
+  white-space:nowrap;
+}
+.brand__word{
+  font-size:20px;
+  font-weight:900;
+  letter-spacing:.15em;
+  margin-right:-.15em;
+}
+.brand__sub{
+  margin-top:6px;
+  margin-right:-.40em;
+  font-size:9px;
+  font-weight:300;
+  letter-spacing:.40em;
+  opacity:.62;
+}
 
 .burger{
   display:none;
@@ -312,7 +333,9 @@ h3{ font-size:clamp(22px, 2.6vw, 32px); }
   border-top:1px solid rgba(255,255,255,.08);
 }
 .site-footer__inner{ max-width:var(--col); margin-inline:auto; }
-.site-footer__addr{ margin:0; font-size:14px; line-height:1.9; color:var(--dim); }
+.site-footer__brand{ margin-inline:auto; }
+.site-footer__brand .brand__word{ font-size:17px; }
+.site-footer__addr{ margin:16px 0 0; font-size:14px; color:var(--dim); }
 .site-footer__links{ display:flex; justify-content:center; gap:26px; margin:26px 0; }
 .site-footer__links a{
   font-size:11px; font-weight:700; letter-spacing:.18em; text-transform:uppercase;

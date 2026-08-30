@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Navian Digital">
   <title>Navian Digital</title>
-  <rect width="100" height="100" rx="18" fill="#020b18"/>
+  <rect width="100" height="100" rx="18" fill="#ffffff"/>
   <path d="M22 24.3 H39.5 L65.2 61.7 V24.3 H78 V75.7 H59.3 L34.8 40.7 V75.7 H22 Z"
-        fill="#ffffff"/>
+        fill="#020b18"/>
 </svg>

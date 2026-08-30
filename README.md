@@ -7,11 +7,17 @@ index.html      home — hero, feature blocks, game grid, studio, contact
 press.html      press kit for The Offering
 privacy.html    privacy policy
 css/style.css   all styles
-js/main.js      sticky header, mobile menu, scroll reveals
+js/main.js      sticky header, mobile menu, parallax, scroll reveals
 assets/img/     key art, screenshots, favicon
 assets/video/   looping background clips
+assets/brand/   logo system + email signature (see its own README)
+tools/          build_brand_png.py — regenerates the brand PNGs
 CNAME           custom domain for GitHub Pages
 ```
+
+The logo is the wordmark, set in HTML — there is no logo image on the page. The
+N-in-a-square is only for square contexts (favicon, avatars, email). Rules are in
+[assets/brand/README.md](assets/brand/README.md).
 
 ## Local preview
 
