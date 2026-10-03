@@ -246,9 +246,9 @@ h3{ font-size:clamp(22px, 2.6vw, 32px); }
 }
 .band__scrim{
   position:absolute; inset:0;
-  background:linear-gradient(to bottom, rgba(2,11,24,.45) 0%, rgba(2,11,24,.15) 42%, rgba(2,11,24,.88) 100%);
+  background:linear-gradient(to bottom, rgba(2,11,24,.66) 0%, rgba(2,11,24,.46) 42%, rgba(2,11,24,.92) 100%);
 }
-.band__scrim--heavy{ background:rgba(2,11,24,.72); }
+.band__scrim--heavy{ background:rgba(2,11,24,.80); }
 
 .band__content{
   position:relative;
@@ -260,9 +260,11 @@ h3{ font-size:clamp(22px, 2.6vw, 32px); }
 .band__heading{ margin-bottom:56px; }
 
 .keyart{
-  width:min(560px, 100%);
-  margin:18px auto 0;
+  width:min(620px, 100%);
+  margin:0 auto;
+  display:block;
 }
+.hero__title{ margin:0; }
 
 .lede{
   max-width:62ch;
